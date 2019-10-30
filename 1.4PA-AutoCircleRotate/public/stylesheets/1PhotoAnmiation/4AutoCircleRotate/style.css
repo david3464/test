@@ -1,4 +1,8 @@
 *{padding:0px;margin:0px;}
+#wrap{
+  
+  perspective:800px;      /*设置景深为800px*/
+}
 
 #photos{
   width:110px;            /*宽度*/
@@ -8,7 +12,7 @@
   transform:rotateY(0deg);
   transform:rotateX(-10deg);
   transform-style:preserve-3d;/*设置3d环境*/
-  perspective:800px;      /*设置景深为800px*/
+  /* perspective:800px;      设置景深为800px */
   }
 
 #photos img{
